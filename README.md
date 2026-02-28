@@ -1332,11 +1332,11 @@ Logs de auditoria são imutáveis (sem UPDATE/DELETE na tabela `domain_events`).
 - Zero vazamento de dados entre tenants (teste manual)
 
 **Estimativa de Esforço por Frente:**
-- Backend (agendamento + sessão): 35 SP
-- Frontend (videochamada + UX): 30 SP
-- AI Worker (Whisper + Mistral): 25 SP
-- Infraestrutura + DevOps: 15 SP
-- QA + Ajustes: 15 SP
+- Backend (agendamento + sessão): 280h
+- Frontend (videochamada + UX): 220h
+- AI Worker (Whisper + Mistral): 100h
+- Infraestrutura + DevOps: 30h
+- QA + Ajustes: 24h
 
 **Dependências:** Definição do tenant inicial, chave Claude API, servidor GPU disponível.
 
